@@ -1,13 +1,12 @@
 # Exam Score Analyzer
 
-This program analyzes exam scores, calculates statistics, and categorizes grades. It also provides an option to save the results to a file for record-keeping.
+This is a project that analyzes exam scores, calculates key statistics, and categorizes grades based on performance. It helps you assess overall student performance and allows you to save the results for future reference.
 
-- **Score Analysis**: Computes the average score and counts the number of students scoring above and below 50.
-- **Grade Distribution**: Categorizes scores into letter grades (A, B, C, D, F).
-- **Data Persistence**: Saves results to a text file for future reference.
-- **User-Friendly Input Handling**: Accepts multiple scores with an option to analyze additional datasets.
+The way I programmed this project was by designing a system that takes in multiple exam scores, computes the average, and counts how many students scored above and below 50. I also implemented a grading system that categorizes scores into letter grades (A, B, C, D, F), making it easy to see the distribution of grades at a glance. Additionally, I included a feature to save the results to a text file, which was a great way to practice handling file operations.
 
-## Example Usage
+I built this project because I wanted to create a practical tool for quickly analyzing student performance. It was an interesting challenge to structure the grading system properly while ensuring the program was easy to use. Hopefully, this makes exam score analysis more convenient and gives better insight into student performance trends.
+
+## Example Output
 ```
 --- Exam Score Analyzer ---
 Enter exam scores (-1 to exit): 88 92 75 61 43 99 85 70 55 34 -1
